@@ -5,8 +5,9 @@
     <div class="col-md-12">
         <div class="card shadow mb-3">
             <div class="card-body">
-                <a href="index.php?com_aprobados" class="btn btn-primary"></i> Contacto Aprobados </a>
-                <a href="index.php?com_desaprobados" class="btn btn-success ml-2">Contacto desaprobados</a>
+                <a href="index.php?com_aprobados" class="btn btn-primary"></i> Mensajes respondidos</a>
+                <a href="index.php?com_desaprobados" class="btn btn-success ml-2">Mensajes sin respuesta</a>
+                <a href="index.php?com_desaprobados" class="btn btn-warning ml-2">Mensajes spam</a>
             </div>
         </div>
     </div>
