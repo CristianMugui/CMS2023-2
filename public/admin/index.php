@@ -51,7 +51,15 @@
             if (isset($_GET['contacto'])) {
                 include(VIEW_BACK . DS . "contacto.php");
             }
-            
+            if (isset($_GET['contacto_send'])) {
+                include(VIEW_BACK . DS . "contacto_send.php");
+            }
+            if (isset($_GET['men_respondidos'])) {
+                include(VIEW_BACK . DS . "men_respondidos.php");
+            }
+            if (isset($_GET['men_ignorados'])) {
+                include(VIEW_BACK . DS . "men_ignorados.php");
+            }
             ?>
         </div>
         <!-- /.container-fluid -->

@@ -54,9 +54,9 @@ INSERT INTO
         user_pass
     )
 VALUES (
-        'Marco',
-        'Mendoza',
-        'marloc2194@gmail.com',
+        'Cristian',
+        'Santa Cruz',
+        'cristiand_67@hotmail.com',
         '123456'
     )
 CREATE TABLE
@@ -89,9 +89,9 @@ CREATE TABLE
 INSERT INTO contacto
 VALUES (
         1,
-        'Marco Mendoza',
-        'marloc2194@gmail.com',
-        '+51977132299',
+        'Cristian Santa Cruz',
+        'cristiand_67@hotmail.com',
+        '+51984472929',
         'mas informacion sobre la elaboracion de paginas web',
         NOW(),
     )

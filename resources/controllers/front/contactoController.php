@@ -13,3 +13,4 @@ function sendMessage()
         redirect("http://localhost/CursoPHP2/phpTarea/public/#5");
     }
 }
+?>

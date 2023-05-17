@@ -43,3 +43,4 @@ function pos_aprobar()
         post_validacionElemento($status, 'comentarios', 'com_status', 'com_id', $id);
     }
 }
+?>

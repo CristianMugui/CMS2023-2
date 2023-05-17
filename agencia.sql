@@ -67,7 +67,7 @@ CREATE TABLE `header` (
 --
 
 INSERT INTO `header` (`hea_logo`, `hea_subtitulo`, `hea_titulo`) VALUES
-('Xekram Mendoza', 'Bienvenido Coder', 'Chupando Solo');
+('Cristian Santa Cruz', 'Bienvenido a mi pagina', 'Mucho gusto');
 
 -- --------------------------------------------------------
 
@@ -123,8 +123,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `user_nombres`, `user_apellidos`, `user_email`, `user_img`, `user_pass`, `user_token`, `user_status`, `user_rol`) VALUES
-(1, 'Marco', 'Mendoza', 'marco@gmail.com', NULL, '$2y$10$S3Zq4ZmoDduMLuXSeQJ27uXhjdzIvClwlkCA3X6.7HpOwftRm1ccK', '', 1, 'admin'),
-(2, 'Pedro', 'Suarez', 'pedro@mail.com', NULL, '$2y$10$84954vuVuOBF4kQSoxvVMel5qjC8Db0SGH0GPad1VgopNKbDEV1Wy', '', 1, 'suscritor');
+(1, 'Cristian', 'Santa Cruz', 'cristian@gmail.com', NULL, '$2y$10$S3Zq4ZmoDduMLuXSeQJ27uXhjdzIvClwlkCA3X6.7HpOwftRm1ccK', '', 1, 'admin'),
+(2, 'Juan', 'Ramirez', 'juan@mail.com', NULL, '$2y$10$84954vuVuOBF4kQSoxvVMel5qjC8Db0SGH0GPad1VgopNKbDEV1Wy', '', 1, 'suscritor');
 
 -- --------------------------------------------------------
 
@@ -150,9 +150,9 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`user_id`, `user_nombres`, `user_apellidos`, `user_email`, `user_img`, `user_pass`, `user_token`, `user_status`, `user_rol`) VALUES
-(5, 'Jose', 'Dallas', 'jose@mail.com', NULL, '$2y$10$w0M5yaJQ/b9SolBtB57HsugWVupxO/OqxQS9ez2SMavFtBpq/wMvm', '', 1, 'suscriptor'),
-(6, 'marco', 'mendoza', 'marloc2194@gmail.com', 'user01.png', '$2y$10$O1QAMxHeU5pXbEra.3pPuuGgplE/cq7Ufn3O9dldh3fDPbfK7J/he', '', 1, 'admin'),
-(7, 'marco', 'mendiola', 'admin@gmail.com', NULL, '$2y$10$elj00ObkRyylCXQANU89d.suXqJuEENpM0Nv/gttmciN4tdbbLDRC', '75d23af433e0cea4c0e45a56dba18b30', 0, 'suscriptor');
+(5, 'pablo', 'gutierrez', 'pablo@mail.com', NULL, '$2y$10$w0M5yaJQ/b9SolBtB57HsugWVupxO/OqxQS9ez2SMavFtBpq/wMvm', '', 1, 'suscriptor'),
+(6, 'cristian', 'santa cruz', 'cristiand_67@hotmail.com', 'user01.png', '$2y$10$O1QAMxHeU5pXbEra.3pPuuGgplE/cq7Ufn3O9dldh3fDPbfK7J/he', '', 1, 'admin'),
+(7, 'Yamilet', 'Perez', 'admin@gmail.com', NULL, '$2y$10$elj00ObkRyylCXQANU89d.suXqJuEENpM0Nv/gttmciN4tdbbLDRC', '75d23af433e0cea4c0e45a56dba18b30', 0, 'suscriptor');
 
 --
 -- Indexes for dumped tables

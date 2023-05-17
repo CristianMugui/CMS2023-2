@@ -39,3 +39,4 @@ DELIMITADOR;
             echo $comentario;
         }
     }
+?>
