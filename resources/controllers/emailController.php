@@ -4,7 +4,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-// require '../vendor/autoload.php';
+require '../vendor/autoload.php';
 
 function send_email($email, $asunto, $mensaje)
 {
@@ -12,14 +12,14 @@ function send_email($email, $asunto, $mensaje)
     $mail->isSMTP();
     $mail->Host = 'sandbox.smtp.mailtrap.io';
     $mail->SMTPAuth = true;
-    $mail->Username = '77b96502d5d71b';
-    $mail->Password = '4be68d991e1eed';
-    $mail->Port = 465;
+    $mail->Username = '4f75970969ba28';
+    $mail->Password = 'c1500172ad3e38';
+    $mail->Port = 25;
     $mail->SMTPSecure = 'tls';
     $mail->isHTML(true);
     $mail->CharSet = 'UTF-8';
 
-    $mail->setFrom('registro@mipagina.com', 'Registro');
+    $mail->setFrom('registro@santacruz.com', 'Registro');
     $mail->addAddress($email);
     $mail->Subject = $asunto;
     $mail->Body = $mensaje;
